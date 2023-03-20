@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class Pointmain{
-    public static void main(String []args)throws CloneNotSupportedException {
+    public static void main(String []args) {
 
         Logger log =  Logger.getLogger("points");
         Scanner sc = new Scanner(System.in);
