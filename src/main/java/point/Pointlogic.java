@@ -13,6 +13,11 @@ public class Pointlogic implements Cloneable{
     public boolean testEqual() {
         return x.equals(y);
     }
+    public Object clone() throws CloneNotSupportedException
+    {
+        return  super.clone();
+    }
+
 
     public Pointlogic point() {
         try {
