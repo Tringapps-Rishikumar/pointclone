@@ -19,16 +19,16 @@ public class Pointlogic implements Cloneable{
     }
 
 
-    public Pointlogic point() {
-        try {
-            return (Pointlogic) super.clone();
-
-        }catch(CloneNotSupportedException e) {
-            log.info("error"+e);
-            return this;
-
-        }
+//    public Pointlogic point() {
+//        try {
+//            return (Pointlogic) super.clone();
+//
+//        }catch(CloneNotSupportedException e) {
+//            log.info("error"+e);
+//            return this;
+//
+//        }
 
     }
 
-}
+

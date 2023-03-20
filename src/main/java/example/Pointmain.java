@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class Pointmain{
-    public static void main(String []args) {
+    public static void main(String []args) throws CloneNotSupportedException {
 
         Logger log =  Logger.getLogger("points");
         Scanner sc = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class Pointmain{
         sc.close();
 
         Pointlogic obj= new Pointlogic(x,y);
-        Pointlogic obj2 =obj.point();
+        Pointlogic obj2 = (Pointlogic) obj.clone();
 
         if(obj2.testEqual()) {
             log.info("Values are same");
