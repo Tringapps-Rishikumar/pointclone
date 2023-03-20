@@ -1,8 +1,8 @@
 package point;
 public class Point implements Cloneable{
-    public String x;
-    public String y;
-    public Point(String x, String y)
+    public static String x;
+    public static String y;
+    public  Point(String x, String y)
     {
         this.x=x;
         this.y=y;
