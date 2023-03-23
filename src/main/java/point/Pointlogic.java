@@ -5,7 +5,7 @@ public class Pointlogic implements Cloneable{
 
     Float x;
     Float y;
-    Logger log =  Logger.getLogger("Point");
+
     public Pointlogic(Float x, Float y){
         this.x=x;
         this.y=y;
@@ -17,10 +17,6 @@ public class Pointlogic implements Cloneable{
     {
         return  super.clone();
     }
-
-
-
-
     }
 
 
